@@ -1,7 +1,7 @@
 function FastUnfording
 clear,clc;
 close all;
-str='louvain_example.txt';
+str='facebook_combined.txt';
 subfua(str);
 
 function subfua(str)
@@ -33,7 +33,7 @@ s=1;
 self=1;
 debug=1;
 verbose=1;
-[COMTY ending] = cluster_jl_orientT_cpp(m,s,self,debug,verbose);
+[COMTY ending] = cluster_jl_orientT(m,s,self,debug,verbose);
 
 ss=length(COMTY.COM);
 Q=COMTY.MOD(ss);
