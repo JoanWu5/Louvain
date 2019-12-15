@@ -1,6 +1,5 @@
 % Fast detection of communities using modularity optimisation
-% Author: Erwan Le Martelot
-% Date: 21/10/11
+% Author: Danmei Wu
 %
 % Input
 %   - adj: adjacency matrix (with no self-loops??)
